@@ -39,23 +39,3 @@ class PostRepositoryImpl implements PostRepository {
     }
   }
 }
-
-
-// class PostRepository with ChangeNotifier, DiagnosticableTreeMixin {
-//   Future<List<Post>> getPosts() async {
-//     return [
-//       Post(
-//           id: "1",
-//           content: "Hello, world!",
-//           userId: "friend1",
-//           createdAt: DateTime.now(),
-//           likes: []),
-//       Post(
-//           id: "2",
-//           content: "Another post from a friend.",
-//           userId: "friend2",
-//           createdAt: DateTime.now(),
-//           likes: []),
-//     ];
-//   }
-// }
